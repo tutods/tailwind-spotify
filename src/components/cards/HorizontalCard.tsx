@@ -20,7 +20,7 @@ export const HorizontalCard = ({ cover, artist, album, href = "#" }: Props) => (
     <Image
       width={104}
       height={104}
-      src={"/assets/media/ac-dc-high-voltage.webp"}
+      src={"/assets/media/cover.webp"}
       alt={!!artist ? `${artist} - ${album}` : album}
     />
     <strong>{album}</strong>

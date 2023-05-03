@@ -16,7 +16,7 @@ const Template: StoryFn<typeof VerticalCard> = (props) => (
 export const Default = Template.bind({});
 Default.args = {
   href: "#",
-  cover: "/assets/media/ac-dc-high-voltage.webp",
+  cover: "/assets/media/cover.webp",
   album: "High Voltage",
   artist: "AC/DC",
 };

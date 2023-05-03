@@ -4,7 +4,13 @@ import { SpriteCategories } from "@enums";
 import { Icon } from "@components/Icon";
 import { PlayButton } from "@components/Footer/partials/PlayButton";
 
-export const Footer = () => {
+type Props = {
+  artist: string;
+  music: string;
+  cover: string;
+};
+
+export const Footer = ({ artist, music, cover }: Props) => {
   return (
     <footer
       className={
@@ -16,12 +22,12 @@ export const Footer = () => {
           width={56}
           height={56}
           className={"rounded-md"}
-          src={"/assets/media/ac-dc-high-voltage.webp"}
-          alt={"AC/DC - High Voltage"}
+          src={cover}
+          alt={`${artist} - ${music}`}
         />
         <div>
-          <p>T.N.T</p>
-          <p className={"text-xs text-zinc-400"}>AC/DC</p>
+          <p>{music}</p>
+          <p className={"text-xs text-zinc-400"}>{artist}</p>
         </div>
 
         <Icon

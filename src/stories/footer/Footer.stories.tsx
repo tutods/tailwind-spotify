@@ -14,9 +14,13 @@ export default {
 const Template: StoryFn<typeof Footer> = (props) => (
   <main className={"flex flex-col h-screen"}>
     <section className="flex-1"></section>
-    <Footer />
+    <Footer {...props} />
   </main>
 );
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = {
+  cover: "/assets/media/cover.webp",
+  music: "Music",
+  artist: "Band or Artist",
+};

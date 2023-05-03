@@ -43,21 +43,21 @@ export default function Home() {
           <section className="grid grid-cols-3 gap-4 mt-4">
             <HorizontalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
             <HorizontalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
             <HorizontalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
           </section>
 
@@ -67,45 +67,49 @@ export default function Home() {
           <section className="grid md:grid-cols-5 grid-cols-3 lg:grid-cols-6 gap-4 mt-4">
             <VerticalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
             <VerticalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
             <VerticalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
             <VerticalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
             <VerticalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
             <VerticalCard
               href={"#"}
-              cover={"/assets/media/ac-dc-high-voltage.webp"}
-              album={"High Voltage"}
-              artist={"AC/DC"}
+              cover={"/assets/media/cover.webp"}
+              album={"Album or Playlist Name"}
+              artist={"Artist/Band"}
             />
           </section>
         </main>
       </div>
 
-      <Footer />
+      <Footer
+        artist={"Artist or Band"}
+        music={"Music"}
+        cover={"/assets/media/cover.webp"}
+      />
     </div>
   );
 }
