@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <footer
       className={
-        "bg-zinc-800 border-t border-t-zinc-700 p-6 flex items-center justify-between"
+        "bg-zinc-950 border-t border-t-zinc-700 px-6 py-4 flex items-center justify-between"
       }
     >
       <section className={"flex items-center gap-3"}>
@@ -97,7 +97,7 @@ export const Footer = () => {
           <Icon size={"lg"} name={"volume"} category={SpriteCategories.AUDIO} />
 
           <progress
-            className="h-1 w-24 [&::-webkit-progress-bar]:rounded-full [&::-webkit-progress-value]:rounded-full [&::-webkit-progress-bar]:bg-zinc-600 [&::-webkit-progress-value]:bg-zinc-200"
+            className="h-1 w-16 [&::-webkit-progress-bar]:rounded-full [&::-webkit-progress-value]:rounded-full [&::-webkit-progress-bar]:bg-zinc-600 [&::-webkit-progress-value]:bg-zinc-200"
             max={100}
             value={20}
           />

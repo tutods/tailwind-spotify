@@ -2,94 +2,14 @@ import Link from "next/link";
 import { Icon } from "@components/ui/Icon";
 import { SpriteCategories } from "@/shared/enums/SpriteCategories";
 import Image from "next/image";
-import clsx from "clsx";
-import { SwitchButton } from "@components/ui/buttons/SwitchButton";
 import { Footer } from "@components/Footer";
+import { Sidebar } from "@components/Sidebar";
 
 export default function Home() {
   return (
     <div className={"h-screen flex flex-col"}>
       <div className={"flex flex-1"}>
-        <aside className={"p-6 w-72 bg-zinc-950"}>
-          <div className={"flex items-center gap-2"}>
-            <span className={"w-3 h-3 rounded-full bg-red-500"} />
-            <span className={"w-3 h-3 rounded-full bg-yellow-500"} />
-            <span className={"w-3 h-3 rounded-full bg-green-500"} />
-          </div>
-
-          <nav className={"space-y-5 mt-10"}>
-            <Link
-              className={
-                "flex items-center gap-4 text-xs font-semibold text-zinc-200"
-              }
-              href={"#"}
-            >
-              <Icon
-                size={"xl"}
-                name={"home"}
-                category={SpriteCategories.MENU}
-              />{" "}
-              Home
-            </Link>
-            <Link
-              className={
-                "flex items-center gap-4 text-xs font-semibold text-zinc-200"
-              }
-              href={"#"}
-            >
-              <Icon
-                size={"xl"}
-                name={"search"}
-                category={SpriteCategories.MENU}
-              />{" "}
-              Search
-            </Link>
-            <Link
-              className={
-                "flex items-center gap-4 text-xs font-semibold text-zinc-200"
-              }
-              href={"#"}
-            >
-              <Icon
-                size={"xl"}
-                name={"layers"}
-                category={SpriteCategories.MENU}
-              />{" "}
-              Your Library
-            </Link>
-          </nav>
-
-          <nav
-            className={
-              "mt-6 pt-6 border-t border-t-zinc-800 flex flex-col gap-3"
-            }
-          >
-            <Link
-              className={
-                "text-sm text-zinc-400 hover:text-zinc-100 transition-colors ease-in-out duration-300"
-              }
-              href={"#"}
-            >
-              My Musics
-            </Link>
-            <Link
-              className={
-                "text-sm text-zinc-400 hover:text-zinc-100 transition-colors ease-in-out duration-300"
-              }
-              href={"#"}
-            >
-              Play Portugal
-            </Link>
-            <Link
-              className={
-                "text-sm text-zinc-400 hover:text-zinc-100 transition-colors ease-in-out duration-300"
-              }
-              href={"#"}
-            >
-              New Music Daily
-            </Link>
-          </nav>
-        </aside>
+        <Sidebar />
         <main className={"flex-1 p-6"}>
           <section className={"flex items-center gap-4"}>
             <button
