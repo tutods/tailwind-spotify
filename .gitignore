@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react,webstorm,webstorm+all,webstorm+iml,visualstudiocode,node,windows,macos,linux,sublimetext,pnpm,yarn
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,webstorm,webstorm+all,webstorm+iml,visualstudiocode,node,windows,macos,linux,sublimetext,pnpm,yarn
+# Created by https://www.toptal.com/developers/gitignore/api/react,webstorm,webstorm+all,webstorm+iml,visualstudiocode,node,windows,macos,linux,sublimetext,pnpm,yarn,storybookjs
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,webstorm,webstorm+all,webstorm+iml,visualstudiocode,node,windows,macos,linux,sublimetext,pnpm,yarn,storybookjs
 
 ### Linux ###
 *~
@@ -202,6 +202,12 @@ node_modules
 psd
 thumb
 sketch
+
+### StorybookJs ###
+# gitignore template for the Storybook, UI guide for front apps
+# website: https://storybook.js.org/
+
+storybook-static/
 
 ### SublimeText ###
 # Cache files for Sublime Text
@@ -526,4 +532,4 @@ $RECYCLE.BIN/
 # and uncomment the following lines
 # .pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/react,webstorm,webstorm+all,webstorm+iml,visualstudiocode,node,windows,macos,linux,sublimetext,pnpm,yarn
+# End of https://www.toptal.com/developers/gitignore/api/react,webstorm,webstorm+all,webstorm+iml,visualstudiocode,node,windows,macos,linux,sublimetext,pnpm,yarn,storybookjs
