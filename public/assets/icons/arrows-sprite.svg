@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="xMidYMid meet" focusable="false" width="0" height="0" visibility="hidden"
+     style="pointer-events: none;position: absolute;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="chevron-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"/>
+    </symbol>
+    <symbol id="chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"/>
+    </symbol>
+    <symbol id="chevron-first" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="17 18 11 12 17 6"/>
+        <path d="M7 6v12"/>
+    </symbol>
+    <symbol id="chevron-last" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="7 18 13 12 7 6"/>
+        <path d="M17 6v12"/>
+    </symbol>
+</svg>

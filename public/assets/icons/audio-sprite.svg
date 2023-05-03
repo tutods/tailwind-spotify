@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="xMidYMid meet" focusable="false" width="0" height="0" visibility="hidden"
+     style="pointer-events: none;position: absolute;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="play" viewBox="0 0 40 40" fill="none">
+        <path d="M32.7845 18.5931C33.8154 19.2478 33.8154 20.7522 32.7845 21.4069L12.5601 34.2512C11.4504 34.9559 9.99988 34.1587 9.99988 32.8443L9.99988 7.1557C9.99988 5.84123 11.4504 5.04408 12.5601 5.74878L32.7845 18.5931Z"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="pause" viewBox="0 0 40 40" fill="none">
+        <path d="M13.3331 10V30M26.6665 10V30" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="shuffle" viewBox="0 0 40 40" fill="none">
+        <path d="M34.9999 11.6667L25.5187 11.6667C24.1916 11.6667 22.9909 12.454 22.4618 13.671L15.8713 28.8292C15.3421 30.0462 14.1415 30.8334 12.8144 30.8334L4.99988 30.8334M34.9999 11.6667L29.9999 16.6667M34.9999 11.6667L29.9999 6.66675M34.9999 29.1667H25.5187C24.1916 29.1667 22.9909 28.3795 22.4618 27.1625L21.6665 25.3334M34.9999 29.1667L29.9999 24.1667M34.9999 29.1667L29.9999 34.1667M4.99988 10.0001L12.8144 10.0001C14.1415 10.0001 15.3421 10.7873 15.8713 12.0043L17.0832 14.7917"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="loop" viewBox="0 0 40 40" fill="none">
+        <path d="M29.9999 24.9999V11.6666C29.9999 9.82564 28.5075 8.33325 26.6665 8.33325H17.4999M29.9999 24.9999L24.9999 19.9999M29.9999 24.9999L34.9999 19.9999M9.99988 14.9999V28.3332C9.99988 30.1742 11.4923 31.6666 13.3332 31.6666H22.4999M9.99988 14.9999L14.9999 19.9999M9.99988 14.9999L4.99988 19.9999" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+</svg>
