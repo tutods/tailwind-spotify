@@ -19,9 +19,15 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./",
     "paths": {
       "@app/*": ["./src/app/*"],
       "@components/*": ["./src/components/*"],
+      "@enums/*": ["./src/shared/enums/*"],
+      "@enums": ["./src/shared/enums"],
+      "@constants/*": ["./src/shared/constants/*"],
+      "@constants": ["./src/shared/constants"],
+      "@shared/*": ["./src/shared/*"],
       "@/*": ["./src/*"]
     }
   },

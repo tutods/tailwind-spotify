@@ -8,6 +8,10 @@
             stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"/>
     </symbol>
+    <svg id="chevron-down" viewBox="0 0 40 40" fill="none">
+        <path d="M26.6667 16.6667L20.0001 23.3334L13.3334 16.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
     <symbol id="chevron-first" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round">
         <polyline points="17 18 11 12 17 6"/>

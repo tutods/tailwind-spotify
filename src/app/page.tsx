@@ -2,6 +2,9 @@ import Link from "next/link";
 import { Icon } from "@components/ui/Icon";
 import { SpriteCategories } from "@/shared/enums/SpriteCategories";
 import Image from "next/image";
+import clsx from "clsx";
+import { SwitchButton } from "@components/ui/buttons/SwitchButton";
+import { Footer } from "@components/Footer";
 
 export default function Home() {
   return (
@@ -139,7 +142,6 @@ export default function Home() {
                   name={"play"}
                   category={SpriteCategories.AUDIO}
                   size={"xl"}
-                  className={"fill-black"}
                 />
               </button>
             </Link>
@@ -165,7 +167,6 @@ export default function Home() {
                   name={"play"}
                   category={SpriteCategories.AUDIO}
                   size={"xl"}
-                  className={"fill-black"}
                 />
               </button>
             </Link>
@@ -191,7 +192,6 @@ export default function Home() {
                   name={"play"}
                   category={SpriteCategories.AUDIO}
                   size={"xl"}
-                  className={"fill-black"}
                 />
               </button>
             </Link>
@@ -207,10 +207,9 @@ export default function Home() {
               }
               href={"#"}
             >
-              <figure className="relative overflow-hidden rounded-md w-full h-32 ">
+              <figure className="relative overflow-hidden rounded-md w-full aspect-square">
                 <Image
                   fill
-                  className={"absolute inset-0 object-cover object-center"}
                   src={"/assets/media/ac-dc-high-voltage.webp"}
                   alt={"AC/DC - High Voltage"}
                 />
@@ -226,7 +225,156 @@ export default function Home() {
                     name={"play"}
                     category={SpriteCategories.AUDIO}
                     size={"xl"}
-                    className={"fill-black"}
+                  />
+                </button>
+              </figure>
+              <strong className={"font-semibold"}>High Voltage</strong>
+              <span className={"text-sm text-zinc-500"}>AC/DC</span>
+            </Link>
+            <Link
+              className={
+                "bg-white/5 flex flex-col gap-2 p-3 group rounded-md hover:bg-white/10 transition-colors ease-in-out"
+              }
+              href={"#"}
+            >
+              <figure className="relative overflow-hidden rounded-md w-full aspect-square">
+                <Image
+                  fill
+                  src={"/assets/media/ac-dc-high-voltage.webp"}
+                  alt={"AC/DC - High Voltage"}
+                />
+                <figcaption className="sr-only">
+                  AC/DC - High Voltage
+                </figcaption>
+                <button
+                  className={
+                    "hidden group-hover:inline-flex items-center justify-center p-2 rounded-full text-black bg-primary-500 transition-all ease-in-out duration-300 absolute bottom-2 right-2"
+                  }
+                >
+                  <Icon
+                    name={"play"}
+                    category={SpriteCategories.AUDIO}
+                    size={"xl"}
+                  />
+                </button>
+              </figure>
+              <strong className={"font-semibold"}>High Voltage</strong>
+              <span className={"text-sm text-zinc-500"}>AC/DC</span>
+            </Link>
+            <Link
+              className={
+                "bg-white/5 flex flex-col gap-2 p-3 group rounded-md hover:bg-white/10 transition-colors ease-in-out"
+              }
+              href={"#"}
+            >
+              <figure className="relative overflow-hidden rounded-md w-full aspect-square">
+                <Image
+                  fill
+                  src={"/assets/media/ac-dc-high-voltage.webp"}
+                  alt={"AC/DC - High Voltage"}
+                />
+                <figcaption className="sr-only">
+                  AC/DC - High Voltage
+                </figcaption>
+                <button
+                  className={
+                    "hidden group-hover:inline-flex items-center justify-center p-2 rounded-full text-black bg-primary-500 transition-all ease-in-out duration-300 absolute bottom-2 right-2"
+                  }
+                >
+                  <Icon
+                    name={"play"}
+                    category={SpriteCategories.AUDIO}
+                    size={"xl"}
+                  />
+                </button>
+              </figure>
+              <strong className={"font-semibold"}>High Voltage</strong>
+              <span className={"text-sm text-zinc-500"}>AC/DC</span>
+            </Link>
+            <Link
+              className={
+                "bg-white/5 flex flex-col gap-2 p-3 group rounded-md hover:bg-white/10 transition-colors ease-in-out"
+              }
+              href={"#"}
+            >
+              <figure className="relative overflow-hidden rounded-md w-full aspect-square">
+                <Image
+                  fill
+                  src={"/assets/media/ac-dc-high-voltage.webp"}
+                  alt={"AC/DC - High Voltage"}
+                />
+                <figcaption className="sr-only">
+                  AC/DC - High Voltage
+                </figcaption>
+                <button
+                  className={
+                    "hidden group-hover:inline-flex items-center justify-center p-2 rounded-full text-black bg-primary-500 transition-all ease-in-out duration-300 absolute bottom-2 right-2"
+                  }
+                >
+                  <Icon
+                    name={"play"}
+                    category={SpriteCategories.AUDIO}
+                    size={"xl"}
+                  />
+                </button>
+              </figure>
+              <strong className={"font-semibold"}>High Voltage</strong>
+              <span className={"text-sm text-zinc-500"}>AC/DC</span>
+            </Link>
+            <Link
+              className={
+                "bg-white/5 flex flex-col gap-2 p-3 group rounded-md hover:bg-white/10 transition-colors ease-in-out"
+              }
+              href={"#"}
+            >
+              <figure className="relative overflow-hidden rounded-md w-full aspect-square">
+                <Image
+                  fill
+                  src={"/assets/media/ac-dc-high-voltage.webp"}
+                  alt={"AC/DC - High Voltage"}
+                />
+                <figcaption className="sr-only">
+                  AC/DC - High Voltage
+                </figcaption>
+                <button
+                  className={
+                    "hidden group-hover:inline-flex items-center justify-center p-2 rounded-full text-black bg-primary-500 transition-all ease-in-out duration-300 absolute bottom-2 right-2"
+                  }
+                >
+                  <Icon
+                    name={"play"}
+                    category={SpriteCategories.AUDIO}
+                    size={"xl"}
+                  />
+                </button>
+              </figure>
+              <strong className={"font-semibold"}>High Voltage</strong>
+              <span className={"text-sm text-zinc-500"}>AC/DC</span>
+            </Link>
+            <Link
+              className={
+                "bg-white/5 flex flex-col gap-2 p-3 group rounded-md hover:bg-white/10 transition-colors ease-in-out"
+              }
+              href={"#"}
+            >
+              <figure className="relative overflow-hidden rounded-md w-full aspect-square">
+                <Image
+                  fill
+                  src={"/assets/media/ac-dc-high-voltage.webp"}
+                  alt={"AC/DC - High Voltage"}
+                />
+                <figcaption className="sr-only">
+                  AC/DC - High Voltage
+                </figcaption>
+                <button
+                  className={
+                    "hidden group-hover:inline-flex items-center justify-center p-2 rounded-full text-black bg-primary-500 transition-all ease-in-out duration-300 absolute bottom-2 right-2"
+                  }
+                >
+                  <Icon
+                    name={"play"}
+                    category={SpriteCategories.AUDIO}
+                    size={"xl"}
                   />
                 </button>
               </figure>
@@ -236,29 +384,8 @@ export default function Home() {
           </section>
         </main>
       </div>
-      <footer
-        className={
-          "bg-zinc-800 border-t border-t-zinc-700 p-6 flex items-center justify-between"
-        }
-      >
-        <section className={"flex items-center gap-3"}>
-          <Image
-            width={56}
-            height={56}
-            className={"rounded-md"}
-            src={"/assets/media/ac-dc-high-voltage.webp"}
-            alt={"AC/DC - High Voltage"}
-          />
-          <div>
-            <p className={""}>T.N.T</p>
-            <p className={"text-xs text-zinc-400"}>AC/DC</p>
-          </div>
-        </section>
-        <section className={"flex flex-col items-center"}>
-          <div></div>
-        </section>
-        <section></section>
-      </footer>
+
+      <Footer />
     </div>
   );
 }

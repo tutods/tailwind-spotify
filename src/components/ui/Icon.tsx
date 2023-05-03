@@ -16,7 +16,7 @@ const sizes = {
   xs: "h-3 w-3",
 } as const;
 
-type Props = {
+export type IconProps = {
   name: string;
   category?: SpriteCategories;
   size?: keyof typeof sizes;
@@ -30,7 +30,7 @@ export const Icon = ({
   size,
   onClick,
   className = "",
-}: Props) => {
+}: IconProps) => {
   const spritePath = `assets/icons/${category}-sprite.svg`;
   const defaultSize = !size && !className ? sizes.md : "";
 

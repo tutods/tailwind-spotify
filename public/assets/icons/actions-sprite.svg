@@ -1,3 +1,7 @@
 <svg preserveAspectRatio="xMidYMid meet" focusable="false" width="0" height="0" visibility="hidden"
      style="pointer-events: none;position: absolute;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="fullscreen" viewBox="0 0 40 40" fill="none">
+        <path d="M15.5226 24.7142L6.38043 33.8563M6.38043 33.8563H12.4752M6.38043 33.8563L6.38043 27.7616M24.7141 15.523L33.8562 6.38086M33.8562 6.38086L27.7614 6.38086M33.8562 6.38086L33.8562 12.4756" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
 </svg>
