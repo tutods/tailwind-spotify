@@ -1,4 +1,4 @@
-import { Icon, IconProps } from "@components/ui/Icon";
+import { Icon, IconProps } from "@components/Icon";
 import { ReactNode } from "react";
 import { SpriteCategories } from "@enums";
 import Link from "next/link";

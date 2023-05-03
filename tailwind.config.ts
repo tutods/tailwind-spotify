@@ -1,12 +1,14 @@
 import { Config } from "tailwindcss";
 
-import { colors } from "./theme";
-
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
-      colors,
+      colors: {
+        primary: {
+          500: "#2EBD59",
+        },
+      },
     },
   },
   plugins: [],

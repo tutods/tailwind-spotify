@@ -1,6 +1,6 @@
 "use client";
 
-import { Icon, IconProps } from "@components/ui/Icon";
+import { Icon, IconProps } from "@components/Icon";
 import { ButtonHTMLAttributes, useState } from "react";
 import clsx from "clsx";
 

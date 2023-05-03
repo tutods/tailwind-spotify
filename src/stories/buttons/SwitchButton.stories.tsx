@@ -1,6 +1,6 @@
 import React from "react";
 import { Meta, StoryFn } from "@storybook/react";
-import { SwitchButton } from "@components/ui/buttons/SwitchButton";
+import { SwitchButton } from "@components/buttons/SwitchButton";
 import { SpriteCategories } from "@enums";
 
 export default {

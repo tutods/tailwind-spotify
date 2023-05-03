@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { SwitchButton } from "@components/ui/buttons/SwitchButton";
+import { SwitchButton } from "@components/buttons/SwitchButton";
 import { SpriteCategories } from "@enums";
-import { Icon } from "@components/ui/Icon";
+import { Icon } from "@components/Icon";
 import { PlayButton } from "@components/Footer/partials/PlayButton";
 
 export const Footer = () => {

@@ -6,13 +6,13 @@ import { Sidebar } from "@components/Sidebar";
 
 export default {
   title: "Layout/Sidebar",
-  component: Footer,
+  component: Sidebar,
   parameters: {
     layout: "fullscreen",
   },
-} as Meta<typeof Footer>;
+} as Meta<typeof Sidebar>;
 
-const Template: StoryFn<typeof Footer> = (props) => (
+const Template: StoryFn<typeof Sidebar> = () => (
   <main className={"flex h-screen"}>
     <Sidebar />
     <section className="flex-1"></section>

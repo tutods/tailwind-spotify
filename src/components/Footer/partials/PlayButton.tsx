@@ -1,7 +1,7 @@
 "use client";
 
 import { ButtonHTMLAttributes, useState } from "react";
-import { Icon } from "@components/ui/Icon";
+import { Icon } from "@components/Icon";
 import { SpriteCategories } from "@enums";
 import clsx from "clsx";
 

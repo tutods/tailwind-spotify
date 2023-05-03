@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Icon } from "@components/ui/Icon";
+import { Icon } from "@components/Icon";
 import { SpriteCategories } from "@enums";
 import { WindowButtons } from "@components/Sidebar/partials/WindowButtons";
 import { NavLink } from "@components/Sidebar/partials/NavLink";
