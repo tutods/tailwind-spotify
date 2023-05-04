@@ -1,7 +1,8 @@
 import React from 'react';
 import { Meta, StoryFn } from '@storybook/react';
-import { Icon } from '@components/Icon';
 import { SpriteCategories } from '@enums';
+
+import { Icon } from '@components/Icon';
 
 export default {
   title: 'Common/Icon',
@@ -9,7 +10,7 @@ export default {
 } as Meta<typeof Icon>;
 
 const Template: StoryFn<typeof Icon> = (props) => (
-  <Icon className={'text-zinc-900'} size={'2xl'} {...props} />
+  <Icon className="text-zinc-900" size="2xl" {...props} />
 );
 
 export const FromAudioSprite = Template.bind({});

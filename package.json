@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --ignore-path .gitignore",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky install"
@@ -31,10 +31,19 @@
     "@types/node": "18.16.3",
     "@types/react": "18.2.1",
     "@types/react-dom": "18.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
     "autoprefixer": "10.4.14",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-storybook": "^0.6.12",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "postcss": "8.4.23",
@@ -47,12 +56,12 @@
     "typescript": "5.0.4"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx}": [
-      "prettier --write",
-      "eslint --fix"
+    "*.{js,jsx,tsx,ts}": [
+      "prettier --write .",
+      "eslint --ignore-path .gitignore --fix ."
     ],
-    "*.{md,html,mdx,css}": [
-      "prettier --write"
+    "*.{md,mdx,json,css,scss,html}": [
+      "prettier --write ."
     ]
   }
 }

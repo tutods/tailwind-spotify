@@ -1,9 +1,10 @@
 'use client';
 
 import { ButtonHTMLAttributes, useState } from 'react';
-import { Icon } from '@components/Icon';
 import { SpriteCategories } from '@enums';
 import clsx from 'clsx';
+
+import { Icon } from '@components/Icon';
 
 type Props = Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'children'> & {
   className?: string;
@@ -15,6 +16,7 @@ export const PlayButton = ({ className = '', ...props }: Props) => {
   return (
     <button
       {...props}
+      onClick={() => setIsPlaying((prev) => !prev)}
       className={clsx([
         'inline-flex items-center justify-center p-2 rounded-full',
         'transition-all ease-in-out duration-300 enabled:hover:text-primary-500 enabled:hover:bg-zinc-100',
@@ -23,12 +25,11 @@ export const PlayButton = ({ className = '', ...props }: Props) => {
         { 'text-zinc-900 bg-zinc-100': !isPlaying },
         className,
       ])}
-      onClick={() => setIsPlaying((prev) => !prev)}
     >
       <Icon
-        name={isPlaying ? 'pause' : 'play'}
         category={SpriteCategories.AUDIO}
-        size={'2xl'}
+        name={isPlaying ? 'pause' : 'play'}
+        size="2xl"
       />
     </button>
   );

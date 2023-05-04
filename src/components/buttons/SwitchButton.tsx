@@ -1,8 +1,9 @@
 'use client';
 
-import { Icon, IconProps } from '@components/Icon';
 import { ButtonHTMLAttributes, useState } from 'react';
 import clsx from 'clsx';
+
+import { Icon, IconProps } from '@components/Icon';
 
 type Props = Omit<
   ButtonHTMLAttributes<HTMLButtonElement>,
@@ -22,6 +23,7 @@ export const SwitchButton = ({
   return (
     <button
       {...props}
+      onClick={() => setIsActive((prev) => !prev)}
       className={clsx([
         'w-6 h-6 text-primary-500 cursor-pointer',
         {
@@ -33,7 +35,6 @@ export const SwitchButton = ({
             isActive,
         },
       ])}
-      onClick={() => setIsActive((prev) => !prev)}
     >
       <Icon {...icon} />
     </button>

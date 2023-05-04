@@ -25,7 +25,7 @@ As usually, on this repo you can find some changes when compare with the course 
 
 ### Improvements/To Do List
 
-- [ ] Use my custom **ESLint** config;
+- [x] Use custom **ESLint** config;
 - [ ] Improve mobile version;
 
 ## 🌃 Gallery

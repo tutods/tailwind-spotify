@@ -1,8 +1,9 @@
 import Image from 'next/image';
-import { SwitchButton } from '@components/buttons/SwitchButton';
 import { SpriteCategories } from '@enums';
-import { Icon } from '@components/Icon';
+
+import { SwitchButton } from '@components/buttons/SwitchButton';
 import { PlayButton } from '@components/Footer/partials/PlayButton';
+import { Icon } from '@components/Icon';
 
 type Props = {
   artist: string;
@@ -12,37 +13,31 @@ type Props = {
 
 export const Footer = ({ artist, music, cover }: Props) => {
   return (
-    <footer
-      className={
-        'sticky bottom-0 bg-zinc-950 border-t border-t-zinc-700 px-6 py-4 md:flex-row flex-col flex items-center md:justify-between gap-4'
-      }
-    >
-      <section className={'flex items-center gap-3'}>
+    <footer className="sticky bottom-0 bg-zinc-950 border-t border-t-zinc-700 px-6 py-4 md:flex-row flex-col flex items-center md:justify-between gap-4">
+      <section className="flex items-center gap-3">
         <Image
-          width={56}
-          height={56}
-          className={'rounded-md'}
-          src={cover}
           alt={`${artist} - ${music}`}
+          className="rounded-md"
+          height={56}
+          src={cover}
+          width={56}
         />
         <div>
           <p>{music}</p>
-          <p className={'text-xs text-zinc-400'}>{artist}</p>
+          <p className="text-xs text-zinc-400">{artist}</p>
         </div>
 
         <Icon
-          name={'heart'}
           category={SpriteCategories.COMMON}
-          size={'lg'}
-          className={
-            'text-zinc-400 hover:text-zinc-100 cursor-pointer transition-colors ease-in-out duration-300'
-          }
+          className="text-zinc-400 hover:text-zinc-100 cursor-pointer transition-colors ease-in-out duration-300"
+          name="heart"
+          size="lg"
         />
       </section>
-      <section className={'flex flex-col items-center gap-2'}>
-        <div className={'flex items-center gap-4'}>
+      <section className="flex flex-col items-center gap-2">
+        <div className="flex items-center gap-4">
           <SwitchButton
-            defaultState={true}
+            defaultState
             icon={{
               name: 'shuffle',
               size: 'xl',
@@ -50,19 +45,19 @@ export const Footer = ({ artist, music, cover }: Props) => {
             }}
           />
           <Icon
-            className={'text-zinc-200'}
-            size={'xl'}
-            name={'chevron-first'}
             category={SpriteCategories.ARROWS}
+            className="text-zinc-200"
+            name="chevron-first"
+            size="xl"
           />
 
           <PlayButton />
 
           <Icon
-            className={'text-zinc-200'}
-            size={'xl'}
-            name={'chevron-last'}
             category={SpriteCategories.ARROWS}
+            className="text-zinc-200"
+            name="chevron-last"
+            size="xl"
           />
 
           <SwitchButton
@@ -85,22 +80,22 @@ export const Footer = ({ artist, music, cover }: Props) => {
           <span className="text-xs text-zinc-4 00">2:14</span>
         </div>
       </section>
-      <section className={'flex items-center gap-2'}>
+      <section className="flex items-center gap-2">
         <Icon
-          className={'cursor-pointer'}
-          size={'lg'}
-          name={'list'}
           category={SpriteCategories.COMMON}
+          className="cursor-pointer"
+          name="list"
+          size="lg"
         />
         <Icon
-          className={'cursor-pointer'}
-          size={'lg'}
-          name={'computer'}
           category={SpriteCategories.COMMON}
+          className="cursor-pointer"
+          name="computer"
+          size="lg"
         />
 
         <div className="flex items-center gap-1">
-          <Icon size={'lg'} name={'volume'} category={SpriteCategories.AUDIO} />
+          <Icon category={SpriteCategories.AUDIO} name="volume" size="lg" />
 
           <progress
             className="h-1 w-16 [&::-webkit-progress-bar]:rounded-full [&::-webkit-progress-value]:rounded-full [&::-webkit-progress-bar]:bg-zinc-600 [&::-webkit-progress-value]:bg-zinc-200"
@@ -109,10 +104,10 @@ export const Footer = ({ artist, music, cover }: Props) => {
           />
         </div>
         <Icon
-          className={'cursor-pointer'}
-          size={'lg'}
-          name={'fullscreen'}
           category={SpriteCategories.ACTIONS}
+          className="cursor-pointer"
+          name="fullscreen"
+          size="lg"
         />
       </section>
     </footer>

@@ -1,5 +1,6 @@
-import { SpriteCategories } from '@/shared/enums/SpriteCategories';
 import clsx from 'clsx';
+
+import { SpriteCategories } from '@/shared/enums/SpriteCategories';
 
 const sizes = {
   // 32px

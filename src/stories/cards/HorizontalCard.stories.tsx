@@ -1,5 +1,6 @@
 import React from 'react';
 import { Meta, StoryFn } from '@storybook/react';
+
 import { HorizontalCard } from '@components/cards/HorizontalCard';
 
 export default {
