@@ -28,6 +28,29 @@ As usually, on this repo you can find some changes when compare with the course 
 - [ ] Use my custom **ESLint** config;
 - [ ] Improve mobile version;
 
+## 🌃 Gallery
+
+<details>
+<summary>Desktop Version</summary>
+
+<img src=".github/assets/desktop.webp" alt="Desktop Version" />
+</details>
+
+<details>
+<summary>Mobile Version</summary>
+
+<img src=".github/assets/mobile.webp" alt="Mobile Version" />
+</details>
+
+<details>
+<summary>Storybook</summary>
+
+<img src=".github/assets/storybook/sidebar.webp" alt="Storybook Sidebar" />
+<img src=".github/assets/storybook/icon-system.webp" alt="Storybook Icon System" />
+<img src=".github/assets/storybook/icon.webp" alt="Storybook Icon" />
+<img src=".github/assets/storybook/switch-button.webp" alt="Storybook Switch Button" />
+</details>
+
 ## 🔗 More About Me
 
 [
