@@ -1,4 +1,4 @@
-![Tailwind CSS Spotify](public/assets/images/cover.webp)
+![Tailwind CSS Spotify](.github/assets/cover.webp)
 
 # Tailwind CSS Spotify
 
