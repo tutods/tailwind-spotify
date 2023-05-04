@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { Icon, IconProps } from "@components/Icon";
-import { ButtonHTMLAttributes, useState } from "react";
-import clsx from "clsx";
+import { Icon, IconProps } from '@components/Icon';
+import { ButtonHTMLAttributes, useState } from 'react';
+import clsx from 'clsx';
 
 type Props = Omit<
   ButtonHTMLAttributes<HTMLButtonElement>,
-  "children" | "defaultChecked" | "defaultValue"
+  'children' | 'defaultChecked' | 'defaultValue'
 > & {
   icon: IconProps;
   defaultState?: boolean;
@@ -23,9 +23,9 @@ export const SwitchButton = ({
     <button
       {...props}
       className={clsx([
-        "w-6 h-6 text-primary-500 cursor-pointer",
+        'w-6 h-6 text-primary-500 cursor-pointer',
         {
-          "text-zinc-500/80 hover:text-zinc-200 transition-colors duration-300 ease-in-out":
+          'text-zinc-500/80 hover:text-zinc-200 transition-colors duration-300 ease-in-out':
             !isActive,
         },
         {

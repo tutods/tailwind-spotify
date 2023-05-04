@@ -1,1 +1,1 @@
-export * from "@enums/SpriteCategories";
+export * from '@enums/SpriteCategories';

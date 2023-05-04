@@ -1,12 +1,12 @@
-import { Config } from "tailwindcss";
+import { Config } from 'tailwindcss';
 
 export default {
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       colors: {
         primary: {
-          500: "#2EBD59",
+          500: '#2EBD59',
         },
       },
     },

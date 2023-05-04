@@ -1,18 +1,18 @@
-import React from "react";
-import { Meta, StoryFn } from "@storybook/react";
-import { PlayButton } from "@components/Footer/partials/PlayButton";
-import { Footer } from "@components/Footer";
+import React from 'react';
+import { Meta, StoryFn } from '@storybook/react';
+import { PlayButton } from '@components/Footer/partials/PlayButton';
+import { Footer } from '@components/Footer';
 
 export default {
-  title: "Layout/Footer",
+  title: 'Layout/Footer',
   component: Footer,
   parameters: {
-    layout: "fullscreen",
+    layout: 'fullscreen',
   },
 } as Meta<typeof Footer>;
 
 const Template: StoryFn<typeof Footer> = (props) => (
-  <main className={"flex flex-col h-screen"}>
+  <main className={'flex flex-col h-screen'}>
     <section className="flex-1"></section>
     <Footer {...props} />
   </main>
@@ -20,7 +20,7 @@ const Template: StoryFn<typeof Footer> = (props) => (
 
 export const Default = Template.bind({});
 Default.args = {
-  cover: "/assets/media/cover.webp",
-  music: "Music",
-  artist: "Band or Artist",
+  cover: '/assets/media/cover.webp',
+  music: 'Music',
+  artist: 'Band or Artist',
 };
