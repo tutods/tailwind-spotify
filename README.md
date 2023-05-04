@@ -23,6 +23,11 @@ As usually, on this repo you can find some changes when compare with the course 
 - [x] Add **commitlint**;
 - [x] Add **Husky** and **LintStaged** to add commit hooks.
 
+### Improvements/To Do List
+
+- [ ] Use my custom **ESLint** config;
+- [ ] Improve mobile version;
+
 ## 🔗 More About Me
 
 [
